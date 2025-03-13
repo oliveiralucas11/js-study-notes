@@ -45,3 +45,7 @@ console.log(guest3)
 //--------------------------------------------------------------------------------------------
 
 //Manipulando Conteudo
+const guest4 = document.querySelector("#guest-1 span") // Selecionando o elemento pelo id
+console.log(guest4.textContent) // Acessando o texto dentro do ID
+
+guest4.textContent = "Lucas Oliveira" // Atribui novo texto ao conteudo
