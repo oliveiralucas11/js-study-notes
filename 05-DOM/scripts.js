@@ -46,6 +46,6 @@ console.log(guest3)
 
 //Manipulando Conteudo
 const guest4 = document.querySelector("#guest-1 span") // Selecionando o elemento pelo id
-console.log(guest4.textContent) // Acessando o texto dentro do ID
-
+console.log(guest4.textContent) // Retorna o conteudo visivel e oculto
 guest4.textContent = "Lucas Oliveira" // Atribui novo texto ao conteudo
+console.log(guest4.innerHTML) // Retorna o HTML como texto.
