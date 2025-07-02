@@ -3,15 +3,21 @@
 
 //Declarar uma variavel sem valor
 var user 
+var usuario
 console.log(user) // Ele retorna como conteudo undefined, pois não tem valor definido 
+console.log(usuario) // Também retorna undefined, pois não foi declarado valor
 
 //Declarar uma variavel com valor
 var email = "lucas@gmail.com"
+var mail = "lucas2@email.com"
 console.log(email) // Vai retornar o valor na variavel, sendo ela uma string
+console.log(mail) // Vai retornar o valor na variavel , sendo ela uma string 
 
 //Substituir o valor da variavel
-email = "joao@email.com"
+email = "joao@email.com" // Nesse momento não estamos declarando mais a palavra var, pois ela já existe, somente estamos atribuindo um novo valor.
+mail = "winicius@email.com"
 console.log(email) // Agora o valor a ser mostrado sera o alterado e não o definido anteriormente. 
+console.log(mail) 
 
 //Declarar uma variavel let sem valor
 let user2 // Essa variavel nao permite que outra seja criada com o mesmo nome sobreescrevendo a si mesma uma vez colocada o nome não pode ser usada em outra variavel a nao ser que seja alterada.
@@ -38,6 +44,12 @@ console.log(number) // O conteudo da constante é fixa e não pode ser alterado 
 //O escopo define o contexto na qual uma variavel pode ser referenciada ou modificada
 
 //Tente pensar no contexto como comodos de uma casa. Por exemplo, para usar o fogao você deve estar na cozinha.
+
+//Global: variáveis declaradas foar de qualquer função ou bloco de código (var)
+
+//Bloco: acessiveis apenas dentro do bloco de código onde foram declaradas (let e const)
+
+//Local(ou escopo de função): variáveis declaradas dentro de uma função
 //--------------------------------------------------------------------------------
 
 
