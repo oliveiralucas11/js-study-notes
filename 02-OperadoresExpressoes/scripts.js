@@ -43,13 +43,13 @@ number++ // ++ operador de incremento colocando sempre de 1 em 1, com o sinal de
 console.log(number++)
 console.log(number)
 
-//Incrementa antes, aparecendo antes no console
+//Incrementa antes, aparecendo antes no console, usando ++ antes do nome
 console.log(++number)
 console.log(number)
 
 //Decremento
-console.log("Decremento após: ", number--)
-console.log("Decremento antes: ", --number)
+console.log("Decremento após: ", number--) // Decrementa após, nao mostrando no console
+console.log("Decremento antes: ", --number) // Decrementa antes, mostrando no console na hora.
 
 //Incrementar mais de um
 number += 20
