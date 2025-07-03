@@ -52,6 +52,20 @@ console.log(number) // O conteudo da constante é fixa e não pode ser alterado 
 //Local(ou escopo de função): variáveis declaradas dentro de uma função
 //--------------------------------------------------------------------------------
 
+//Hoisting de variaveis
+
+// Todas as declaracoes de variaveis sao movidas para o topo do seu escopo independentemente onde tenha sido declarada, ela estara disponivel pra uso em todo o escopo que foi definida
+
+// Mesmo que as declaracoes de variaveis sejam movidas para o topo do escopo, elas precisam ser declaradas antes de serem utilizadas. Caso contrario, voce recebera undefined.
+//--------------------------------------------------------------------------------
+
+//Hoisting de funcoes
+
+// Todas as declaracoes de funcoes tambem sao movidas para o topo do seu escopo. Isso significa que voce pode chamar uma funcao antes mesmo de declara-la
+
+// Essa caracteristica do JavaScript permite que voce organize seu codigo de forma mais intuitiva, definindo as funcoes em qualquer ordem que desejar.
+//--------------------------------------------------------------------------------
+
 
 //Case-Sensitive 
 //Podemos criar variaveis com o mesmo nome apenas alterando alguma letra para maiuscula ou minuscula
@@ -120,9 +134,10 @@ console.log(`
   console.log(message)
 
   // Template literals (Interpolação)
+  // Somente pode ser feito com acentuacao grave ``
   console.log(`Ola, ${userData}. Você conectou com o email: ${userDataEmail}`)
+  console.log(`O email conectado foi: ${userDataEmail}. Seja bem-vindo ${userData}`)
   //--------------------------------------------------------------------------------------
-
 
   // Tipo Number
 
@@ -147,8 +162,7 @@ console.log(`
   // NaN - Not a Number
   console.log(12.5 / "Rodrigo") // esse valor vai retornar NaN, pois aqui estamos tentando dividir um numero por um texto e isso nao é possivel.
   //-------------------------------------------------------------------------------------------
-
-
+  
   // Tipo Boolean
   console.log(true) // verdadeiro
   console.log(false) // Falso
