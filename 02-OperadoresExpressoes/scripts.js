@@ -24,6 +24,12 @@ console.log(`O resultado da divisao é de: ${divisao}`)
 console.log("O resultado da divisao é de: ", 12 / 2)
 console.log("O resultado da divisao é de: ", divisao)
 
+// Resto da Divisao
+let resto = 13 % 2
+console.log(`O resultado do resto da divisao é: ${resto}`)
+console.log("O resultado do resto é de:", 13 % 2)
+console.log("O resultado do resto da divisao é: ", resto)
+
 // Potenciação
 console.log("Exponencial: ", 3 ** 3) // 3 elevado a 3
 //-------------------------------------------------------------------------------
@@ -33,7 +39,7 @@ let number = 10
 number = number + 10 // Incrementando mais 10 na variavel number
 number++ // ++ operador de incremento colocando sempre de 1 em 1, com o sinal depois ele incrementa após e não antes.
 
-//Incrementa após por isso nao mostra no console, usando ++ após o nome
+//Incrementa após, por isso nao mostra no console, usando ++ após o nome
 console.log(number++)
 console.log(number)
 
