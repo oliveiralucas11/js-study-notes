@@ -79,7 +79,9 @@ else if(hour1 > 12 && hour1 <= 18){
 //Estrutura de condição SWITCH 
 //Mais usado quando você quer analisar caso a caso
 
-let option = 1 
+// Mais usado em atendimento automatizado (bot) onde precisamos ter uma lista de opcoes pra serem digitadas.
+
+let option = 1
 
 switch(option){
   case 1:
@@ -94,6 +96,7 @@ switch(option){
     default: // Como se fosse o else do if para caso a pessoa selecione um numero que nao esteja no switch
     console.log("Opção invalida")
 }
+//------------------------------------------------------------------------
 
 // Estrutura de tratamento de exceções (try,catch)
 
