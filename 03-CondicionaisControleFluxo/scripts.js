@@ -32,6 +32,7 @@ console.log("Lucas" ? "VERDADEIRO" : "False")
 console.log(" " ? "VERDADEIRO" : "False")
 console.log(Infinity ? "VERDADEIRO" : "False")
 console.log(-Infinity ? "VERDADEIRO" : "False")
+console.log(-1 ? "Verdadeiro" : "False")
 //-----------------------------------------------------------------------------------
 
 //Estrutura de condicão if (se)
