@@ -6,6 +6,7 @@ console.log(age >= 18 // Condicão
 
 // o sinal de '?' ele é o operador que indica pra gente o que deve acontecer caso o resultado da condição for verdadeiro, já o ':'indica qual vai ser o resultado caso a condição seja falsa
 console.log(age <= 18 ? "Você nao pode dirigir" : "Você já pode dirigir parabens!!")
+console.log (age >= 18 ? "Voce ja pode ser preso" : "Voce ainda nao pode ser preso")
 //------------------------------------------------------------------------------
 
 /**
